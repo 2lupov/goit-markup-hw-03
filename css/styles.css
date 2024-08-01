@@ -179,7 +179,7 @@ img {
 
 .nav-menu {
   display: flex;
-  align-items: center
+  align-items: center;
   gap: 40px;
 }
 
