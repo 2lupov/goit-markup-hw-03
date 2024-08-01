@@ -46,7 +46,7 @@ img {
   border-bottom: 1px solid #e7e9fc; /* Оформлення нижнього краю хедера */
 }
 
-.header-container {
+.container {
   display: flex; /* Для розміщення навігації та контактів в одну лінію */
   width: 1158px; /* Доступна ширина контенту */
   padding: 0 15px; /* Внутрішні відступи */
