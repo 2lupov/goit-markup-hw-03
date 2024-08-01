@@ -19,17 +19,17 @@
   <body>
     <header class="header-logo">
       <div class="container">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-part">Studio</span></a
+        >
         <nav class="nav-menu">
-          <a href="./index.html" class="logo"
-            >Web<span class="logo-part">Studio</span></a
-          >
-          <ul class="nav-menu">
+          <ul class="nav-list">
             <li><a href="./index.html" class="nav-link">Studio</a></li>
             <li><a href="./index.html" class="nav-link">Portfolio</a></li>
-            <li><a href="" class="nav-link">Contacts</a></li>
+            <li><a href="./index.html" class="nav-link">Contacts</a></li>
           </ul>
         </nav>
-        <address id="contacts" class="contacts">
+        <address class="contacts">
           <ul class="contacts-list">
             <li>
               <a href="mailto:info@devstudio.com" class="contacts-link"
@@ -48,7 +48,7 @@
     <main>
       <section class="page-section">
         <div class="container">
-          <h1 class="hero-title typog">
+          <h1 class="hero-title typog visually-hidden">
             Effective Solutions for Your Business
           </h1>
           <button type="button" class="button hero-button">
@@ -97,23 +97,31 @@
           <ul class="team-list">
             <li class="team-li">
               <img src="images/kent1.jpg" alt="Mark Guerrero" width="264" />
-              <h3 class="team-member-name title">Mark Guerrero</h3>
-              <p class="team-member-role text">Product Designer</p>
+              <div class="employee-info">
+                <h3 class="employee-name">Mark Guerrero</h3>
+                <p class="employee-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-li">
               <img src="images/kent2.jpg" alt="Tom Ford" width="264" />
-              <h3 class="team-member-name title">Tom Ford</h3>
-              <p class="team-member-role text">Frontend Developer</p>
+              <div class="employee-info">
+                <h3 class="employee-name">Tom Ford</h3>
+                <p class="employee-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-li">
               <img src="images/kent3.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="team-member-name title">Camila Garcia</h3>
-              <p class="team-member-role text">Marketing</p>
+              <div class="employee-info">
+                <h3 class="employee-name">Camila Garcia</h3>
+                <p class="employee-position">Marketing</p>
+              </div>
             </li>
             <li class="team-li">
               <img src="images/kent4.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="team-member-name title">Daniel Wilson</h3>
-              <p class="team-member-role text">UI Designer</p>
+              <div class="employee-info">
+                <h3 class="employee-name">Daniel Wilson</h3>
+                <p class="employee-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -128,8 +136,10 @@
                 alt="Banking App"
                 width="360"
               />
-              <h3 class="portfolio-title title">Banking App</h3>
-              <p class="portfolio-category text">App</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-category">App</p>
+              </div>
             </li>
             <li class="list-item">
               <img
@@ -137,8 +147,10 @@
                 alt="Cashless Payment"
                 width="360"
               />
-              <h3 class="portfolio-title title">Cashless Payment</h3>
-              <p class="portfolio-category text">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-category">Marketing</p>
+              </div>
             </li>
             <li class="list-item">
               <img
@@ -146,8 +158,10 @@
                 alt="Meditation App"
                 width="360"
               />
-              <h3 class="portfolio-title title">Meditation App</h3>
-              <p class="portfolio-category text">App</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-category">App</p>
+              </div>
             </li>
             <li class="list-item">
               <img
@@ -155,8 +169,10 @@
                 alt="Taxi Service"
                 width="360"
               />
-              <h3 class="portfolio-title title">Taxi Service</h3>
-              <p class="portfolio-category text">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-category">Marketing</p>
+              </div>
             </li>
             <li class="list-item">
               <img
@@ -164,8 +180,10 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h3 class="portfolio-title title">Screen Illustrations</h3>
-              <p class="portfolio-category text">Design</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-category">Design</p>
+              </div>
             </li>
             <li class="list-item">
               <img
@@ -173,8 +191,10 @@
                 alt="Online Courses"
                 width="360"
               />
-              <h3 class="portfolio-title title">Online Courses</h3>
-              <p class="portfolio-category text">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-category">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
