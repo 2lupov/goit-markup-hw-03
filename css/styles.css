@@ -47,9 +47,10 @@ img {
 }
 
 .container {
-  display: flex; /* Для розміщення навігації та контактів в одну лінію */
-  width: 1158px; /* Доступна ширина контенту */
-  padding: 0 15px; /* Внутрішні відступи */
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
