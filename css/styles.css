@@ -55,8 +55,8 @@ img {
 }
 
 .header-nav {
-  display: flex; /* Розміщення логотипу та меню в одну лінію */
-  align-items: center; /* Вирівнювання по вертикалі */
+  display: flex;
+  gap: 40px; /* Відступи між пунктами меню */
 }
 
 .header-logo {
@@ -85,8 +85,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--light-color);
 }
-
-.nav-link {
+ч .nav-link {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
