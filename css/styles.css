@@ -56,7 +56,7 @@ img {
 
 .header-nav {
   display: flex;
-  gap: 40px; /* Відступи між пунктами меню */
+  align-items: center;
 }
 
 .header-logo {
@@ -85,7 +85,16 @@ img {
   letter-spacing: 0.02em;
   color: var(--light-color);
 }
-ч .nav-link {
+
+.nav-list {
+  display: flex;
+  gap: 40px; /* Відступи між пунктами меню */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
