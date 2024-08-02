@@ -158,6 +158,18 @@ img {
   color: var(--light-color);
 }
 
+.footer-logo {
+  display: inline-block; /* Додавання блочних властивостей */
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  margin-bottom: 16px; /* Відступи між посиланням і наступним елементом */
+}
+
 .page-section {
   padding: 188px 0;
 }
