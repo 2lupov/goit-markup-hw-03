@@ -153,9 +153,10 @@ img {
 }
 
 .page-footer {
-  padding: 60px 0;
+  padding: 100px 0; /* Відступи для секції */
   background-color: var(--primary-color);
   color: var(--light-color);
+  display: inline-block;
 }
 
 .footer-logo {
