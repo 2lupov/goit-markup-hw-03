@@ -113,6 +113,24 @@ img {
   color: #404bbf;
 }
 
+.services {
+  padding: 120px 0; /* Відступи для секції */
+  text-align: center;
+}
+
+.services .services-list {
+  display: flex;
+  gap: 24px; /* Відступи між пунктами меню */
+}
+
+.services .list-item {
+  width: calc((100% - 72px) / 4); /* Ширина елементів списку */
+}
+
+.services .list-item .title {
+  margin-bottom: 8px; /* Відступ між заголовком і параграфом */
+}
+
 .contacts {
   font-style: normal;
   margin-left: auto;
