@@ -61,6 +61,7 @@ img {
 .portfolio-container {
   padding: 32px 16px; /* Відступи від країв контейнера */
   border: 1px solid #e7e9fc; /* Обводка по периметру контейнера */
+  border-top: none;
 }
 
 .header-nav {
@@ -328,7 +329,7 @@ img {
   row-gap: 48px;
 }
 
-.portgolio-list .portfolio-item {
+.portfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
