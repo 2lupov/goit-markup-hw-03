@@ -58,7 +58,7 @@ img {
   margin: 0 auto; /* Центрування контейнера */
 }
 
-.content-container {
+.portfolio-container {
   padding: 32px 16px; /* Відступи від країв контейнера */
   border: 1px solid #e7e9fc; /* Обводка по периметру контейнера */
 }
