@@ -312,7 +312,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px; /* Встановлює відступи між елементами списку */
-  row-gap: 48px; /* Встановлює вертикальні відступи між рядками */
 }
 
 .portfolio-item {
