@@ -63,11 +63,11 @@ img {
   padding: 24px 0;
 }
 
-.header-logo .logo-part {
+.header-logo {
   color: var(--primary-color);
 }
 
-.footer-logo .logo-part {
+.footer-logo {
   color: var(--light-color);
 }
 
@@ -156,7 +156,6 @@ img {
   padding: 100px 0; /* Відступи для секції */
   background-color: var(--primary-color);
   color: var(--light-color);
-  display: inline-block;
 }
 
 .footer-logo {
