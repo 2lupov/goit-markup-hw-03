@@ -59,9 +59,12 @@ img {
   display: flex;
   align-items: center;
   width: 1158px;
-  padding: 32px 16px;
   margin: 0 auto;
-  border: 1px solid #e7e9fc;
+}
+
+.content-container {
+  padding: 32px 16px; /* Відступи від країв контейнера */
+  border: 1px solid #e7e9fc; /* Обводка по периметру контейнера */
 }
 
 .header-nav {
