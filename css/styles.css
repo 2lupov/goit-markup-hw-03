@@ -46,7 +46,7 @@ img {
   border-bottom: 1px solid #e7e9fc; /* Оформлення нижнього краю хедера */
 }
 
-.container {
+.header-container {
   display: flex;
   align-items: center;
   width: 1158px;
@@ -55,7 +55,7 @@ img {
   border: 1px solid #e7e9fc;
 }
 
-.section-container {
+.container {
   display: flex;
   align-items: center;
   width: 1158px;
