@@ -49,17 +49,13 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-  border: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  width: 1158px;
-  margin: 0 auto;
+  width: 1158px; /* Фіксована ширина для всіх контейнерів */
+  padding: 0 15px; /* Внутрішні відступи */
+  margin: 0 auto; /* Центрування контейнера */
 }
 
 .content-container {
